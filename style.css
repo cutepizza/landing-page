@@ -4,12 +4,13 @@ body {
 
 .header{
     display: flex;
-    padding: 16px;
+    padding: 16px 16px 60px 16px;
     height: 32px;
-    background: #24242e;
+    background: #1f2937;
     color: white;
     /*font-size: 24px;*/
     justify-content: space-between;
+    
 }
 
 .right {
@@ -37,18 +38,29 @@ ul {
 
   .first {
     display: flex;
-    background: #24242e;
+    background: #1f2937;
+    height: 400px;
+    justify-content: center;
+   
+
   }
 
   .first-left{
     display: flex;
     color: white;
     flex-direction: column;
-    padding: 32px;
+    padding: px 32px 0px 32px;
+    height: 100px;
+    width: 300px;
+  }
+
+  .subtext-title{
+    padding-bottom: 12px;
   }
   
   .first-right{
     display: flex;
+    padding-left: 100px;
   }
 
   .text-title{
@@ -56,6 +68,109 @@ ul {
     font-size: 40px;
   }
 
+  .second{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .second-text-title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+
+  .product-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px;
+  }
+
+  .product-subtext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 16px 16px 42px 16px;
+  }
+
   .third{
-    background: grey;
+    display: flex;
+    background: #e5e7eb;
+    padding-top: 36px;
+    justify-content: center;
+    justify-items: center;
+    
+  }
+
+  .quote-container{
+    font-size: 25px;
+    width: 650px;
+    height: 275px;
+    padding-top: 26px;
+  }
+
+  .quote-text{
+    font-family: light italic;
+  }
+
+  .author-text{
+    display: flex;
+    justify-content: end;
+    padding-top: 12px;
+    font-weight: bold;
+  }
+
+  button{
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    padding: 8px 24px;
+    border-radius: 12px;
+  }
+
+  .forth{
+    display: flex;
+    justify-content: center;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+
+  .card{
+    display: flex;
+    width: 600px;
+    height: 120px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: white;
+  }
+
+  .signup-card{
+    font-weight: bolder;
+  }
+
+  .left-card{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .card-button{
+    border-color: white;
+  }
+
+  .footer{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
   }
